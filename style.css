@@ -61,6 +61,7 @@ h1 {
 
 #content-wrap {
     display: flex;
+    flex-wrap: wrap;
 }
 
 #content {
