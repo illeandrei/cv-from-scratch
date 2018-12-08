@@ -7,7 +7,16 @@ function initSkillsPage() {
         var resultList = $('#skills-page ul');
 
         var listItems = skills.map(function (skill) {
-            return `<li>${skill.name.toUpperCase()}</li>`;
+            var endorsedBy = skill.endorsedBy;
+
+            if (endorsedBy) {
+                endorsedBy = ` <span class="greyed-out"> - Endorsed by</span> ${endorsedBy}`
+            }
+
+            return `<li>
+                        ${skill.name.toUpperCase()} - ${skill.endorsments} 
+                        ${endorsedBy}
+                    </li>`;
         });
 
         resultList.append(listItems.join(''));
