@@ -1,3 +1,9 @@
+function initMenu() {
+    $('#top-menu-bar a').click(function (e) {
+        console.debug('a click:', e.target);
+    })
+}
+
 function initSkillsPage() {
     $.ajax('data/skills.json').done(function (skills) {
         var resultList = $('#skills-page ul');
@@ -19,5 +25,6 @@ function initSkillsPage() {
     })
 }
 
+initMenu();
 $('#skills-page').show();
 initSkillsPage();
