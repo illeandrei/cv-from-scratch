@@ -3,11 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <title>CV from scratch</title>
-    <link rel="stylesheet" href="style.css">
+    <!--<link rel="stylesheet" href="style.css">-->
 </head>
 <body>
 
-<h3>Hello world</h3>
+<div id="header">
+    <h1>CV</h1>
+    <p id="my-name">Ille Andrei</p>
+    <img src="portrait.jpg" id="my-picture">
+    <p id="motto">Web Developer @SDL, Assistant Trainer @FasttrackIt</p>
+    <ul id="top-menu-bar">
+        <li>
+            <a href="#" data-page="home">Home</a>
+        </li>
+        <li>
+            <a href="#" data-page="skills">Skills</a>
+        </li>
+        <li>
+            <a href="#" data-page="education">Education</a>
+        </li>
+        <li>
+            <a href="#" data-page="languages">Languages</a>
+        </li>
+        <li>
+            <a href="#" data-page="experience">Experience</a>
+        </li>
+    </ul>
+</div>
+<div id="content-wrap">
+    <div id="left-sidebar">
+        <p>News</p>
+        <h2>Contact</h2>
+        <p>Hire me!</p>
+        <form action="#">
+            <label for="recruiter-email">Your email</label>
+            <input id="recruiter-email" name="recruiterEmail" type="email">
+            <button>Send</button>
+        </form>
+    </div>
+    <div id="content">
+        <div id="home-page" class="page-block">
+            <h2>Home</h2>
+        </div>
+        <div id="skills-page" class="page-block">
+            <h2>Skills</h2>
+        </div>
+        <div id="education-page" class="page-block">
+            <h2>Education</h2>
+        </div>
+        <div id="languages-page" class="page-block">
+            <h2>Languages</h2>
+        </div>
+        <div id="experience-page" class="page-block">
+            <h2>Experience</h2>
+        </div>
+    </div>
+</div>
+<div id="footer">
+    <a href="https://www.linkedin.com/">LinkedIn</a>
+    <a href="https://github.com/illeandrei">Github</a>
+</div>
 
 <script src="script.js"></script>
 </body>
