@@ -29,6 +29,8 @@
 
 - follow github instructions to make initial commit
     ```
+    git init
+    git add .
     git commit -m "first commit"
     git remote add origin git@github.com:illeandrei/cv-from-scratch.git
     git push -u origin master
