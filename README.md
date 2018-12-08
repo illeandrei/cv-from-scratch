@@ -1,7 +1,7 @@
 # Guide to create CV project from scratch
 
 ### Follow this steps:
-- create folder with name of project (cv-from-scratch)
+- create folder with name of project (illeandrei.github.io)
 
 - create index.html (in the folder created previously)
 - create script.js (to run all js logic)
@@ -10,10 +10,10 @@
 
 ##### Git:
 - open https://github.com
-- create new repo with same name as project on disk (cv-from-scratch)
+- create new repo with same name as project on disk (illeandrei.github.io)
 - create ssh-key to skip using account/password
     - open Git Bash
-    - generate ssh-key: 
+    - generate ssh-key (make sure to replace with your email address): 
     ```
     ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
     ```
