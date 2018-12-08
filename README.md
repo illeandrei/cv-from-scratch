@@ -27,7 +27,7 @@
     https://github.com/settings/keys
     ``` 
 
-- follow github instructions to make initial commit
+- follow github instructions to make initial commit. example:
     ```
     git init
     git add .
