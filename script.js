@@ -1,6 +1,10 @@
 function initMenu() {
     $('#top-menu-bar a').click(function (e) {
-        console.debug('a click:', e.target);
+        var page = e.target.getAttribute('data-page');
+        console.debug('show page:', `#${page}-page`);
+
+        $('.page-block').hide();
+        $(`#${page}-page`).fadeIn();
     })
 }
 
